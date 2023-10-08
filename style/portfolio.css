@@ -1,0 +1,19 @@
+:root {
+    --accent-color: #2196F3;
+    --text-color1: #212121;
+    --text-color2: #757575;
+    --text-color3: #FFF;
+    --text-color4: rgba(255, 255, 255, 0.60);
+    --background-color1: #FFF;
+    --background-color2: #2F303A;
+}
+
+header {
+    background-color: var(--background-color1);
+}
+main {
+    background-color: var(--background-color1);
+}
+footer {
+    background-color: var(--background-color2);
+}
