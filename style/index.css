@@ -13,18 +13,31 @@ header {
     background-color: var(--background-color2);
 }
 
-.beginning {
+.hero {
     background-color: var(--background-color1);
 }
 
-.beginning + div {
+.hero + .activity-personnel {
     background-color: var(--background-color2);
 }
 
-.beginning + div + section {
+.hero + .activity-personnel + section {
     background-color: var(--background-color3);
 }
 
 footer {
     background-color: var(--background-color1);
+}
+
+body {
+    font-family: Roboto;
+}
+
+.header-item-studio {
+    color: #2196F3;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
 }
