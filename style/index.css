@@ -9,6 +9,8 @@
     --background-color3: #F5F4FA;
 }
 
+/*background*/
+
 header {
     background-color: var(--background-color2);
 }
@@ -29,15 +31,20 @@ footer {
     background-color: var(--background-color1);
 }
 
+/*font-family*/
+
 body {
     font-family: Roboto;
 }
 
-.header-item-studio {
-    color: #2196F3;
+
+
+.header-container >  {
+    color: var(--accent-color);
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-letter-spacing: 0.28px;
+letter-spacing: 0.02em;
 }
+
