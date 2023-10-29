@@ -8,6 +8,8 @@
     --background-color2: #2F303A;
 }
 
+/* background */
+
 header {
     background-color: var(--background-color1);
 }
@@ -17,3 +19,27 @@ main {
 footer {
     background-color: var(--background-color2);
 }
+
+/* font-family */
+
+body {
+    font-family: Roboto; 
+}
+
+/* header */
+
+.header-item {
+    color: var(--text-color1);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+/* hero */
+
+
+
+/* footer */
