@@ -6,6 +6,7 @@
     --text-color4: rgba(255, 255, 255, 0.60);
     --background-color1: #FFF ;
     --background-color2: #2F303A ;
+    --title-color: #000 ;
 }
 
 /* background */
@@ -28,7 +29,16 @@ body {
 
 /* header */
 
-.header-li {
+.header-title {
+    color: var(--accent-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.03em;
+}
+
+
+.header-link {
 color: var(--text-color1);
 font-size: 14px;
 font-weight: 500;
@@ -77,6 +87,14 @@ letter-spacing: 0.03em;
 }
 
 /* footer */
+
+.footer-title {
+    color: var(--accent-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.03em;
+}
 
 .footer-address {
     color: var(--text-color3);

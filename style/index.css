@@ -1,41 +1,114 @@
 :root {
-    --accent-color: #2196F3;
-    --text-color1: #212121;
-    --text-color2: #757575;
-    --text-color3: #FFF;
-    --text-color4: rgba(255, 255, 255, 0.60);
-    --background-color1: #2F303A;
-    --background-color2: #FFF;
-    --background-color3: #F5F4FA;
+  --accent-color: #2196f3;
+  --text-color1: #212121;
+  --text-color2: #757575;
+  --text-color3: #fff;
+  --text-color4: rgba(255, 255, 255, 0.6);
+  --background-color1: #2f303a;
+  --background-color2: #fff;
+  --background-color3: #f5f4fa;
 }
 
-/*background*/
+/* background */
 
 header {
-    background-color: var(--background-color2);
+  background-color: var(--background-color2);
 }
 
 .hero {
-    background-color: var(--background-color1);
+  background-color: var(--background-color1);
 }
 
 .hero + .activity-personnel {
-    background-color: var(--background-color2);
+  background-color: var(--background-color2);
 }
 
 .hero + .activity-personnel + section {
-    background-color: var(--background-color3);
+  background-color: var(--background-color3);
 }
 
 footer {
-    background-color: var(--background-color1);
+  background-color: var(--background-color1);
 }
 
-/*font-family*/
+/* font-family */
 
 body {
-    font-family: Roboto;
+  font-family: Roboto;
 }
 
+/* header */
 
+.header-title {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
 
+.header-link {
+  color: var(--text-color1);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.header-email {
+  color: var(--text-color2);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.header-tel {
+color: var(--text-color2);
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.02em;
+}
+
+/* hero */
+
+.hero-title {
+color: var(--text-color3);
+text-align: center;
+font-size: 44px;
+font-weight: 900;
+line-height: 1.36363636364; 
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.hero-button {
+color: var(--text-color3);
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.875;
+letter-spacing: 0.06em;
+}
+
+.activity-subtitle {
+color: var(--text-color1);
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.activity-text {
+color: var(--text-color2);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71428571429;
+letter-spacing: 0.03em;
+}
+
+.activity-title {
+color: var(--text-color1);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+letter-spacing: 0.03em;
+}
