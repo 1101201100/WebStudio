@@ -11,14 +11,8 @@
 
 /* background */
 
-header {
-    background-color: var(--background-color1);
-}
 main {
     background-color: var(--background-color1);
-}
-footer {
-    background-color: var(--background-color2);
 }
 
 /* font-family */
@@ -28,6 +22,18 @@ body {
 }
 
 /* header */
+
+header {
+    background-color: var(--background-color1);
+}
+
+.header-span {
+    color: var(--title-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
 
 .header-title {
     color: var(--accent-color);
@@ -88,6 +94,18 @@ letter-spacing: 0.03em;
 
 /* footer */
 
+footer {
+    background-color: var(--background-color2);
+}
+
+.footer-span {
+    color: var(--text-color3);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
 .footer-title {
     color: var(--accent-color);
 font-family: Raleway;
@@ -123,9 +141,16 @@ letter-spacing: 0.03;
 /* псевдокласи стану */
 
 button,a:hover {
-    color: #2196F3;
+    color: var(--text-color3);
+    background-color: var(--accent-color);
   }
 
 button,a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
+
+button,a {
+    text-decoration: none;
+  }
+
+

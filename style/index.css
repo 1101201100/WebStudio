@@ -4,31 +4,10 @@
   --text-color2: #757575;
   --text-color3: #fff;
   --text-color4: rgba(255, 255, 255, 0.6);
+  --text-color5: #000;
   --background-color1: #2f303a;
   --background-color2: #fff;
   --background-color3: #f5f4fa;
-}
-
-/* background */
-
-header {
-  background-color: var(--background-color2);
-}
-
-.hero {
-  background-color: var(--background-color1);
-}
-
-.hero + .activity-personnel {
-  background-color: var(--background-color2);
-}
-
-.hero + .activity-personnel + section {
-  background-color: var(--background-color3);
-}
-
-footer {
-  background-color: var(--background-color1);
 }
 
 /* font-family */
@@ -38,6 +17,18 @@ body {
 }
 
 /* header */
+
+header {
+  background-color: var(--background-color2);
+}
+
+.header-span {
+  color: var(--text-color5);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.03em;
+}
 
 .header-title {
   color: var(--accent-color);
@@ -70,6 +61,10 @@ body {
 
 /* hero */
 
+.hero {
+  background-color: var(--background-color1);
+}
+
 .hero-title {
   color: var(--text-color3);
   text-align: center;
@@ -90,6 +85,10 @@ body {
 }
 
 /* activity */
+
+.activity {
+  background-color: var(--background-color2);
+}
 
 .activity-subtitle {
   color: var(--text-color1);
@@ -117,6 +116,10 @@ body {
 
 /* personnel */
 
+.personnel {
+  background-color: var(--background-color3);
+}
+
 .personnel-title {
   color: var(--text-color1);
   text-align: center;
@@ -143,8 +146,20 @@ body {
 
 /* footer */
 
+footer {
+  background-color: var(--background-color1);
+}
+
 .footer-title {
   color: var(--accent-color);
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+letter-spacing: 0.03em;
+}
+
+.footer-span {
+  color: var(--text-color3);
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
@@ -178,9 +193,14 @@ letter-spacing: 0.03em;
 /* псевдокласи стану */
 
 button,a:hover {
-  color: #2196F3;
+  color: var(--text-color3);
+  background-color: var(--accent-color);
 }
 
 button,a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+button,a {
+  text-decoration: none;
 }
