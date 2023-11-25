@@ -4,139 +4,193 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="../style/reset.css">
-    <link rel="stylesheet" href="../style/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../style/reset.css" />
+    <link rel="stylesheet" href="../style/portfolio.css" />
   </head>
   <body>
     <header class="header">
-      <nav class="header-container">
-        <h2 class="header-title">Web<span class="header-span">Studio</span></h2>
+      <div class="container">
+        <nav class="header-container">
+          <h2 class="header-title">
+            Web<span class="header-span">Studio</span>
+          </h2>
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="../index.html" class="header-link">Студія</a>
+            </li>
+            <li class="header-item">
+              <a href="../pages/portfolio.html" class="header-link"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="../pages/contactys.html" class="header-link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="header-list">
           <li class="header-item">
-            <a href="../index.html" class="header-link">Студія</a>
+            <a href="mailto:info@devstudio.com" class="header-email"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="header-item">
-            <a href="../pages/portfolio.html" class="header-link">Портфоліо</a>
-          </li>
-          <li class="header-item">
-            <a href="../pages/contactys.html" class="header-link">Контакти</a>
+            <a href="tel:+380961111111" class="header-tel">+380961111111</a>
           </li>
         </ul>
-      </nav>
-      <ul class="header-list">
-        <li class="header-item">
-          <a href="mailto:info@devstudio.com"  class="header-email">info@devstudio.com</a>
-        </li>
-        <li class="header-item">
-          <a href="tel:+380961111111" class="header-tel">+380961111111</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main class="wrapper">
       <!--hero-->
       <section class="hero">
         <div class="container">
-      <ul class="hero-list">
-        <li class="hero-item">
-          <a href="#" class="hero-link">Усі</a>
-        </li>
-        <li class="hero-item">
-          <a href="#" class="hero-link">Веб-сайти</a>
-        </li>
-        <li class="hero-item">
-          <a href="#" class="hero-link">Додатки</a>
-        </li>
-        <li class="hero-item">
-          <a href="#" class="hero-link">Дизайн</a>
-        </li>
-        <li class="hero-item">
-          <a href="#" class="hero-link">Маркетинг</a>
-        </li>
-      </ul>
-      <ul class="hero-list-photo">
-        <li class="hero-item-photo">
-          <article class="hero-article">
-            <img src="../pictures/img-1-portfolio.webp" alt="number1" class="hero-photo" />
-            <h2 class="hero-title">Технокряк</h2>
-            <p class="hero-text">Веб-сайт</p>
-          </article>
-        </li>
-        <li class="hero-item-photo">
-          <article class="hero-article">
-            <img src="../pictures/img-2-portfolio.webp" alt="number2" class="hero-photo" />
-            <h2 class="hero-title">Постер New Orlean vs Golden Star</h2>
-            <p class="hero-text">Дизайн</p>
-          </article>
-        </li>
-        <li class="hero-item-photo">
-          <article class="hero-article">
-            <img src="../pictures/img-3-portfolio.webp" alt="number3" class="hero-photo" />
-            <h2 class="hero-title">Ресторан Seafood</h2>
-            <p class="hero-text">Додаток</p>
-          </article>
-        </li>
-        <li class="hero-item-photo">
-          <article class="hero-article">
-            <img src="../pictures/img-4-portfolio.webp" alt="number4" class="hero-photo" />
-            <h2 class="hero-title">Проєкт Prime</h2>
-            <p class="hero-text">Маркетинг</p>
-          </article>
-        </li>
-        <li class="hero-item-photo">
-          <article class="hero-article">
-            <img src="../pictures/img-5-portfolio.webp" alt="number5" class="hero-photo" />
-            <h2 class="hero-title">Проєкт Boxes</h2>
-            <p class="hero-text">Додаток</p>
-          </article>
-        </li>
-        <li class="hero-item-photo">
-          <article class="hero-article">
-            <img src="../pictures/img-6-portfolio.webp" alt="number6" class="hero-photo" />
-            <h2 class="hero-title">Inspiration has no Borders</h2>
-            <p class="hero-text">Веб-сайт</p>
-          </article>
-        </li>
-        <li class="hero-item-photo">
-          <article class="hero-article">
-            <img src="../pictures/img-7-portfolio.webp" alt="number7" class="hero-photo" />
-            <h2 class="hero-title">Видання Limited Edition</h2>
-            <p class="hero-text">Дизайн</p>
-          </article>
-        </li>
-        <li class="hero-item-photo">
-          <article class="hero-article">
-            <img src="../pictures/img-8-portfolio.webp" alt="number8" class="hero-photo" />
-            <h2 class="hero-title">Проєкт LAB</h2>
-            <p class="hero-text">Маркетинг</p>
-          </article>
-        </li>
-        <li class="hero-item-photo">
-          <article class="hero-article">
-            <img src="../pictures/img-9-portfolio.webp" alt="number9" class="hero-photo" />
-            <h2 class="hero-title">Growing Business</h2>
-            <p class="hero-text">Додаток </p>
-          </article>
-        </li>
-      </ul>
-    </div>
-    </section>
+          <ul class="hero-list">
+            <li class="hero-item">
+              <a href="#" class="hero-link">Усі</a>
+            </li>
+            <li class="hero-item">
+              <a href="#" class="hero-link">Веб-сайти</a>
+            </li>
+            <li class="hero-item">
+              <a href="#" class="hero-link">Додатки</a>
+            </li>
+            <li class="hero-item">
+              <a href="#" class="hero-link">Дизайн</a>
+            </li>
+            <li class="hero-item">
+              <a href="#" class="hero-link">Маркетинг</a>
+            </li>
+          </ul>
+          <ul class="hero-list-photo">
+            <li class="hero-item-photo">
+              <article class="hero-article">
+                <img
+                  src="../pictures/img-1-portfolio.webp"
+                  alt="number1"
+                  class="hero-photo"
+                />
+                <h2 class="hero-title">Технокряк</h2>
+                <p class="hero-text">Веб-сайт</p>
+              </article>
+            </li>
+            <li class="hero-item-photo">
+              <article class="hero-article">
+                <img
+                  src="../pictures/img-2-portfolio.webp"
+                  alt="number2"
+                  class="hero-photo"
+                />
+                <h2 class="hero-title">Постер New Orlean vs Golden Star</h2>
+                <p class="hero-text">Дизайн</p>
+              </article>
+            </li>
+            <li class="hero-item-photo">
+              <article class="hero-article">
+                <img
+                  src="../pictures/img-3-portfolio.webp"
+                  alt="number3"
+                  class="hero-photo"
+                />
+                <h2 class="hero-title">Ресторан Seafood</h2>
+                <p class="hero-text">Додаток</p>
+              </article>
+            </li>
+            <li class="hero-item-photo">
+              <article class="hero-article">
+                <img
+                  src="../pictures/img-4-portfolio.webp"
+                  alt="number4"
+                  class="hero-photo"
+                />
+                <h2 class="hero-title">Проєкт Prime</h2>
+                <p class="hero-text">Маркетинг</p>
+              </article>
+            </li>
+            <li class="hero-item-photo">
+              <article class="hero-article">
+                <img
+                  src="../pictures/img-5-portfolio.webp"
+                  alt="number5"
+                  class="hero-photo"
+                />
+                <h2 class="hero-title">Проєкт Boxes</h2>
+                <p class="hero-text">Додаток</p>
+              </article>
+            </li>
+            <li class="hero-item-photo">
+              <article class="hero-article">
+                <img
+                  src="../pictures/img-6-portfolio.webp"
+                  alt="number6"
+                  class="hero-photo"
+                />
+                <h2 class="hero-title">Inspiration has no Borders</h2>
+                <p class="hero-text">Веб-сайт</p>
+              </article>
+            </li>
+            <li class="hero-item-photo">
+              <article class="hero-article">
+                <img
+                  src="../pictures/img-7-portfolio.webp"
+                  alt="number7"
+                  class="hero-photo"
+                />
+                <h2 class="hero-title">Видання Limited Edition</h2>
+                <p class="hero-text">Дизайн</p>
+              </article>
+            </li>
+            <li class="hero-item-photo">
+              <article class="hero-article">
+                <img
+                  src="../pictures/img-8-portfolio.webp"
+                  alt="number8"
+                  class="hero-photo"
+                />
+                <h2 class="hero-title">Проєкт LAB</h2>
+                <p class="hero-text">Маркетинг</p>
+              </article>
+            </li>
+            <li class="hero-item-photo">
+              <article class="hero-article">
+                <img
+                  src="../pictures/img-9-portfolio.webp"
+                  alt="number9"
+                  class="hero-photo"
+                />
+                <h2 class="hero-title">Growing Business</h2>
+                <p class="hero-text">Додаток</p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <!--footer-->
     <footer class="footer">
+      <div class="container">
       <h2 class="footer-title">Web<span class="footer-span">Studio</span></h2>
       <p class="footer-address">м. Київ, пр-т Лесі Українки, 26</p>
       <ul class="footer-list">
         <li class="footer-item">
-          <a href="mailto:info@devstudio.com" class="footer-email">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="footer-email"
+            >info@devstudio.com</a
+          >
         </li>
         <li class="footer-item">
           <a href="tel:+380961111111" class="footer-tel">+380961111111</a>
         </li>
       </ul>
+    </div>
     </footer>
   </body>
 </html>

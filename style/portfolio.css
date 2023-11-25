@@ -12,7 +12,7 @@
 .container {
     padding-left: 15px;
     padding-right: 15px;
-    width: 1170px;
+    width: 1200px;
     outline: solid red;
     margin: 0 auto;
   }
@@ -33,6 +33,11 @@ body {
 
 header {
     background-color: var(--background-color1);
+}
+
+header {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .header-span {
@@ -75,6 +80,11 @@ letter-spacing: 0.02em;
 
 /* hero */
 
+.hero {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .hero-link {
 color: var(--text-color1);
 text-align: center;
@@ -104,6 +114,11 @@ letter-spacing: 0.03em;
 
 footer {
     background-color: var(--background-color2);
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-span {
