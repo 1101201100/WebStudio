@@ -10,6 +10,14 @@
   --background-color3: #f5f4fa;
 }
 
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1170px;
+  outline: solid red;
+  margin: 0 auto;
+}
+
 /* font-family */
 
 body {

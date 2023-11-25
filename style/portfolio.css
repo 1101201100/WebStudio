@@ -9,6 +9,14 @@
     --title-color: #000 ;
 }
 
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+    outline: solid red;
+    margin: 0 auto;
+  }
+
 /* background */
 
 main {
