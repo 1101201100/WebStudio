@@ -8,14 +8,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-      <link rel="stylesheet" href="./style/reset.css">
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./style/reset.css" />
     <link rel="stylesheet" href="./style/index.css" />
   </head>
   <body>
     <!--header-->
     <header class="header">
+    <div class="container">
       <nav class="header-container">
         <h2 class="header-title">Web<span class="header-span">Studio</span></h2>
         <ul class="header-list">
@@ -32,24 +37,27 @@
       </nav>
       <ul class="header-list">
         <li class="header-item">
-          <a href="mailto:info@devstudio.com" class="header-email">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="header-email"
+            >info@devstudio.com</a
+          >
         </li>
         <li class="header-item">
           <a href="tel:+380961111111" class="header-tel">+380961111111</a>
         </li>
       </ul>
+    </div>
     </header>
     <main class="wrapper">
       <!--hero-->
       <section class="hero">
         <div class="container">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero-button">Замовити послугу</button>
-      </div>
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero-button">Замовити послугу</button>
+        </div>
       </section>
-        <!--activity-->
-        <section class="activity">
-          <div class="container">
+      <!--activity-->
+      <section class="activity">
+        <div class="container">
           <ul class="activity-list">
             <li class="activity-item">
               <h3 class="activity-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -107,72 +115,76 @@
             </li>
           </ul>
         </div>
-        </section>
+      </section>
       <!--personnel-->
       <section class="personnel">
         <div class="container">
-        <h2 class="personnel-title">Наша команда</h2>
-        <ul class="personnel-list">
-          <li class="personnel-item">
-            <article class="personnel-article">
-              <img
-                src="./pictures/team-picture-1.webp"
-                alt="team-picture-1"
-                class="personnel-photo"
-              />
-              <h3 class="personnel-subtitle">Ігор Дем'яненко</h3>
-              <p class="personnel-name">Product Designer</p>
-            </article>
-          </li>
-          <li class="personnel-item">
-            <article class="personnel-article">
-              <img
-                src="./pictures/team-picture-2.webp"
-                alt="team-picture-2"
-                class="personnel-photo"
-              />
-              <h3 class="personnel-subtitle">Ольга Рєпіна</h3>
-              <p class="personnel-name">Frontend Developer</p>
-            </article>
-          </li>
-          <li class="personnel-item">
-            <article class="personnel-article">
-              <img
-                src="./pictures/team-picture-3.webp"
-                alt="team-picture-3"
-                class="personnel-photo"
-              />
-              <h3 class="personnel-subtitle">Микола Тарасов</h3>
-              <p class="personnel-name">Marketing</p>
-            </article>
-          </li>
-          <li class="personnel-item">
-            <article class="personnel-article">
-              <img
-                src="./pictures/team-picture-4.webp"
-                alt="team-picture-4"
-                class="personnel-photo"
-              />
-              <h3 class="personnel-subtitle">Михайло Єрмаков</h3>
-              <p class="personnel-name">UI Designer</p>
-            </article>
-          </li>
-        </ul>
-      </div>
+          <h2 class="personnel-title">Наша команда</h2>
+          <ul class="personnel-list">
+            <li class="personnel-item">
+              <article class="personnel-article">
+                <img
+                  src="./pictures/team-picture-1.webp"
+                  alt="team-picture-1"
+                  class="personnel-photo"
+                />
+                <h3 class="personnel-subtitle">Ігор Дем'яненко</h3>
+                <p class="personnel-name">Product Designer</p>
+              </article>
+            </li>
+            <li class="personnel-item">
+              <article class="personnel-article">
+                <img
+                  src="./pictures/team-picture-2.webp"
+                  alt="team-picture-2"
+                  class="personnel-photo"
+                />
+                <h3 class="personnel-subtitle">Ольга Рєпіна</h3>
+                <p class="personnel-name">Frontend Developer</p>
+              </article>
+            </li>
+            <li class="personnel-item">
+              <article class="personnel-article">
+                <img
+                  src="./pictures/team-picture-3.webp"
+                  alt="team-picture-3"
+                  class="personnel-photo"
+                />
+                <h3 class="personnel-subtitle">Микола Тарасов</h3>
+                <p class="personnel-name">Marketing</p>
+              </article>
+            </li>
+            <li class="personnel-item">
+              <article class="personnel-article">
+                <img
+                  src="./pictures/team-picture-4.webp"
+                  alt="team-picture-4"
+                  class="personnel-photo"
+                />
+                <h3 class="personnel-subtitle">Михайло Єрмаков</h3>
+                <p class="personnel-name">UI Designer</p>
+              </article>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!--footer-->
     <footer>
-      <h2 class="footer-title">Web<span class="footer-span">Studio</span></h2>
-      <p class="footer-address">м. Київ, пр-т Лесі Українки, 26</p>
-      <ul class="footer-list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="footer-email">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      <div class="container">
+        <h2 class="footer-title">Web<span class="footer-span">Studio</span></h2>
+        <p class="footer-address">м. Київ, пр-т Лесі Українки, 26</p>
+        <ul class="footer-list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer-email"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

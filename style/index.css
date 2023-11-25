@@ -27,6 +27,11 @@ body {
 /* header */
 
 header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+header {
   background-color: var(--background-color2);
 }
 
@@ -73,6 +78,11 @@ letter-spacing: 0.03em;
   background-color: var(--background-color1);
 }
 
+.hero {
+  padding-top: 200px;
+  padding-bottom: 210px;
+}
+
 .hero-title {
   color: var(--text-color3);
   text-align: center;
@@ -96,6 +106,11 @@ letter-spacing: 0.03em;
 
 .activity {
   background-color: var(--background-color2);
+}
+
+.activity {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .activity-subtitle {
@@ -128,6 +143,11 @@ letter-spacing: 0.03em;
   background-color: var(--background-color3);
 }
 
+.personnel {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .personnel-title {
   color: var(--text-color1);
   text-align: center;
@@ -156,6 +176,11 @@ letter-spacing: 0.03em;
 
 footer {
   background-color: var(--background-color1);
+}
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-title {
