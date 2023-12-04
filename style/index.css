@@ -26,9 +26,29 @@ body {
 
 /* header */
 
+.header-container {
+  display: flex;
+}
+
+.header-list {
+  display: flex;
+  gap: 32px;
+  outline: solid green;
+  margin-right: 344px;
+  margin-left: 93px;
+  align-items: center;
+}
+
+.header-list-adres {
+  display: flex;
+  gap: 50px;
+  outline: solid black;
+  align-items: center;
+}
+
 header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 header {
@@ -49,6 +69,7 @@ letter-spacing: 0.03em;
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.03em;
+  outline: solid yellow;
 }
 
 .header-link {
@@ -78,9 +99,18 @@ letter-spacing: 0.03em;
   background-color: var(--background-color1);
 }
 
+.hero-list {
+  display: flex;
+}
+
 .hero {
   padding-top: 200px;
   padding-bottom: 210px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
 }
 
 .hero-title {
@@ -91,6 +121,7 @@ letter-spacing: 0.03em;
   line-height: 1.36363636364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
 }
 
 .hero-button {
@@ -100,6 +131,7 @@ letter-spacing: 0.03em;
   font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
+
 }
 
 /* activity */
