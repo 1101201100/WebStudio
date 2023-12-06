@@ -35,6 +35,26 @@ header {
     background-color: var(--background-color1);
 }
 
+.header-container {
+    display: flex;
+  }
+
+  .header-list {
+    display: flex;
+    gap: 32px;
+    outline: solid green;
+    margin-right: 344px;
+    margin-left: 93px;
+    align-items: center;
+  }
+
+  .header-list-adres {
+    display: flex;
+    gap: 50px;
+    outline: solid black;
+    align-items: center;
+  }
+
 header {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -54,6 +74,7 @@ font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.03em;
+outline: solid yellow;
 }
 
 
@@ -83,6 +104,20 @@ letter-spacing: 0.02em;
 .hero {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.hero-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.hero-list-photo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
 }
 
 .hero-link {
