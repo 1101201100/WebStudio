@@ -108,7 +108,7 @@ letter-spacing: 0.03em;
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 210px;
+  padding-bottom: 200px;
 }
 
 .hero-container {
@@ -135,6 +135,7 @@ letter-spacing: 0.03em;
   line-height: 1.87;
   letter-spacing: 0.06em;
   width: 216px;
+  padding: 10px;
 }
 
 /* activity */
@@ -151,9 +152,12 @@ letter-spacing: 0.03em;
 .activity-list {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
-
+.activity-photo {
+  width: 100%;
+}
 
 .activity-subtitle {
   color: var(--text-color1);
@@ -161,6 +165,7 @@ letter-spacing: 0.03em;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .activity-text {
@@ -185,6 +190,10 @@ letter-spacing: 0.03em;
 
 .personnel {
   background-color: var(--background-color3);
+}
+
+.personnel-subtitle {
+  margin-bottom: 10px;
 }
 
 .personnel {
