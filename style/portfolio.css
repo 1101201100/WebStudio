@@ -120,6 +120,10 @@ letter-spacing: 0.02em;
     margin-bottom: 50px;
 }
 
+.hero-item-photo {
+    flex-basis: calc((100% * 30px) / 3);
+}
+
 .hero-link {
 color: var(--text-color1);
 text-align: center;
