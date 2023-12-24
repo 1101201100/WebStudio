@@ -176,6 +176,10 @@ letter-spacing: 0.03em;
   letter-spacing: 0.03em;
 }
 
+.activity-item {
+  padding-bottom: 94px;
+}
+
 .activity-title {
   color: var(--text-color1);
   text-align: center;
@@ -199,6 +203,11 @@ letter-spacing: 0.03em;
 .personnel {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.personnel-item {
+  background-color: var(--background-color2);
+  padding-bottom: 30px;
 }
 
 .personnel-container {
