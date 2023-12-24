@@ -99,6 +99,10 @@ font-weight: 500;
 letter-spacing: 0.02em;
 }
 
+.hero-item-photo {
+    border: 1px solid #EEE; 
+} 
+
 /* hero */
 
 .hero {
@@ -121,7 +125,9 @@ letter-spacing: 0.02em;
 }
 
 .hero-item-photo {
-    flex-basis: calc((100% * 30px) / 3);
+    flex-basis: calc((100% - 30px * 2) / 3);
+    border: 1px solid #EEE;
+    padding-bottom: 20px; 
 }
 
 .hero-link {
@@ -131,6 +137,12 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.625;
 letter-spacing: 0.03em;
+background: #F5F4FA; 
+padding-bottom: 6px;
+padding-top: 6px;
+padding-right: 22px;
+padding-left: 22px;
+border-radius: 4px;
 }
 
 .hero-title {
