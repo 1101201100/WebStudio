@@ -37,6 +37,7 @@ header {
 
 .header-container {
     display: flex;
+    justify-content: center;
   }
 
   .header-list {
@@ -99,10 +100,6 @@ font-weight: 500;
 letter-spacing: 0.02em;
 }
 
-.hero-item-photo {
-    border: 1px solid #EEE; 
-} 
-
 /* hero */
 
 .hero {
@@ -113,7 +110,7 @@ letter-spacing: 0.02em;
 .hero-list {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 8px;
     margin-bottom: 50px;
 }
 
@@ -121,7 +118,6 @@ letter-spacing: 0.02em;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 50px;
 }
 
 .hero-item-photo {
@@ -151,6 +147,10 @@ font-size: 18px;
 font-weight: 700;
 line-height: 2;
 letter-spacing: 0.06em;
+padding-left: 24px;
+padding-right: 24px;
+margin-bottom: 4px;
+margin-top: 20px;
 }
 
 .hero-text {
@@ -159,6 +159,8 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.875; 
 letter-spacing: 0.03em;
+padding-left: 24px;
+padding-right: 24px;
 }
 
 /* footer */
@@ -186,6 +188,7 @@ font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.03em;
+margin-bottom: 20px;
 }
 
 .footer-address {
@@ -202,6 +205,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71428571;
 letter-spacing: 0.03em;
+margin-top: 9px;
 }
 
 .footer-tel {
@@ -210,6 +214,7 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71428571;
 letter-spacing: 0.03;
+margin-top: 9px;
 }
 
 /* псевдокласи стану */
