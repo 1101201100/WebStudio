@@ -57,8 +57,8 @@ header {
   }
 
 header {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-span {
@@ -141,6 +141,13 @@ padding-left: 22px;
 border-radius: 4px;
 }
 
+.link {
+    padding-left: 25px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-right: 25px;
+}
+
 .hero-title {
     color: var(--text-color1);
 font-size: 18px;
@@ -199,13 +206,17 @@ margin-bottom: 20px;
     letter-spacing: 0.03em;
 }
 
+.footer-item:first-child {
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
+
 .footer-email {
     color: var(--text-color4);
 font-size: 14px;
 font-weight: 400;
 line-height: 1.71428571;
 letter-spacing: 0.03em;
-margin-top: 9px;
 }
 
 .footer-tel {
@@ -214,7 +225,6 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71428571;
 letter-spacing: 0.03;
-margin-top: 9px;
 }
 
 /* псевдокласи стану */
