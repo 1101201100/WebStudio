@@ -128,10 +128,6 @@ letter-spacing: 0.03em;
   width: 696px;
 }
 
-.hero-iteam {
-  display: flex;
-}
-
 .hero-button {
   color: var(--text-color3);
   text-align: center;
