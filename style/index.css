@@ -148,6 +148,10 @@ letter-spacing: 0.03em;
   background-color: var(--background-color2);
 }
 
+.work-item::before {
+  
+}
+
 .activity {
   padding-top: 94px;
   padding-bottom: 94px;
