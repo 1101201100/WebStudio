@@ -80,11 +80,19 @@ header {
   letter-spacing: 0.02em;
 }
 
+.header-link:hover {
+  color: var(--accent-color);
+}
+
 .header-email {
   color: var(--text-color2);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+
+.header-email:hover{
+  color: var(--accent-color);
 }
 
 .header-tel {
@@ -110,7 +118,11 @@ header {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../pictures/frends.png);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../pictures/frends.png);
 }
 
 .hero-container {
@@ -130,20 +142,20 @@ header {
 }
 
 .hero-button {
-  color: var(--text-color3);
   text-align: center;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  width: 216px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 32px;
   padding-left: 32px;
-  box-sizing: content-box;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  background-color: var(--accent-color);
+  color: var(--text-color3);
 }
 
 /* activity */
@@ -163,10 +175,10 @@ header {
   padding-top: 25px;
   padding-bottom: 25px;
   background-repeat: no-repeat;
-   margin-bottom: 30px;  
+  margin-bottom: 30px;
   background-position: center;
   box-sizing: content-box;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 
 .acti-item:nth-child(2)::before {
@@ -176,14 +188,14 @@ header {
   height: 70px;
   background-image: url(../pictures/clock.png);
   margin-bottom: 30px;
-  padding-right: 100px; 
-  padding-left: 100px; 
+  padding-right: 100px;
+  padding-left: 100px;
   padding-top: 25px;
-  padding-bottom: 25px; 
+  padding-bottom: 25px;
   background-repeat: no-repeat;
   box-sizing: content-box;
   background-position: center;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 
 .acti-item:nth-child(3)::before {
@@ -193,14 +205,14 @@ header {
   height: 70px;
   background-image: url(../pictures/diagram.png);
   margin-bottom: 30px;
-  padding-right: 100px; 
-  padding-left: 100px; 
+  padding-right: 100px;
+  padding-left: 100px;
   padding-top: 25px;
-  padding-bottom: 25px; 
+  padding-bottom: 25px;
   background-repeat: no-repeat;
   box-sizing: content-box;
   background-position: center;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 
 .acti-item:nth-child(4)::before {
@@ -210,14 +222,14 @@ header {
   height: 70px;
   background-image: url(../pictures/astronaut.png);
   margin-bottom: 30px;
-  padding-right: 100px; 
-  padding-left: 100px; 
+  padding-right: 100px;
+  padding-left: 100px;
   padding-top: 25px;
   padding-bottom: 25px;
   background-repeat: no-repeat;
   box-sizing: content-box;
   background-position: center;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 
 .activity {
@@ -287,7 +299,8 @@ header {
 .personnel-item {
   background-color: var(--background-color2);
   padding-bottom: 30px;
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12); 
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .personnel-container {
@@ -392,12 +405,6 @@ footer {
 }
 
 /* псевдокласи стану */
-
-button,
-a:hover {
-  color: var(--text-color3);
-  background-color: var(--accent-color);
-}
 
 button,
 a:focus {
