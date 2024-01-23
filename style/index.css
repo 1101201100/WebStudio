@@ -34,7 +34,6 @@ body {
 .header-list {
   display: flex;
   gap: 32px;
-  outline: solid green;
   margin-right: 344px;
   margin-left: 93px;
   align-items: center;
@@ -43,7 +42,6 @@ body {
 .header-list-adres {
   display: flex;
   gap: 50px;
-  outline: solid black;
   align-items: center;
 }
 
@@ -70,7 +68,6 @@ header {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.03em;
-  outline: solid yellow;
 }
 
 .header-link {
