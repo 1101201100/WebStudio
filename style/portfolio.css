@@ -7,6 +7,7 @@
   --background-color1: #fff;
   --background-color2: #2f303a;
   --title-color: #000;
+  --line-color: #ECECEC;
 }
 
 .container {
@@ -33,6 +34,7 @@ body {
 
 header {
   background-color: var(--background-color1);
+  border-bottom: 1px solid var(--line-color);
 }
 
 .header-container {
