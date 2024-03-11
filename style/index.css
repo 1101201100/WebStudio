@@ -8,6 +8,7 @@
   --background-color1: #2f303a;
   --background-color2: #fff;
   --background-color3: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 
 .container {
@@ -340,6 +341,27 @@ header {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.03em;
+}
+
+/* costomers */
+
+.costomers-icon {
+  fill: var(--icon-color);
+}
+
+.costomers-list {
+  display: flex;
+  gap: 30px;
+}
+
+.costomers-title {
+  font-family: "Roboto";
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--text-color1);
+
 }
 
 /* footer */
