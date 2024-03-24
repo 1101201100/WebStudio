@@ -40,6 +40,8 @@ body {
   align-items: center;
 }
 
+
+
 .header-icon-post {
   width: 16px;
   height: 12px;
@@ -52,14 +54,6 @@ body {
   fill: var(--text-color2);
 }
 
-.header-icon-tel:hover {
-  fill: var(--accent-color);
-}
-
-.header-icon-post:hover {
-  fill: var(--accent-color);
-}
-
 .header-list-adres {
   display: flex;
   gap: 30px;
@@ -69,6 +63,14 @@ body {
 .header-item-ader {
   display: flex;
   align-items: center;
+}
+
+.header-item-ader:hover .header-icon-tel {
+  fill: var(--accent-color);
+}
+
+.header-item-ader:hover .header-icon-post {
+  fill: var(--accent-color);
 }
 
 header {
@@ -320,14 +322,23 @@ header {
   background-color: var(--background-color3);
 }
 
+
 .personnel-icon {
   width: 20px;
   height: 20px;
   fill: var(--icon-color);
 }
 
-.personnel-icon:hover {
+.personnel-iteam:hover .personnel-icon  {
   fill: var(--text-color3);
+}
+
+.personnel-tab:focus .personnel-icon {
+  fill: var(--text-color3);
+}
+
+.personnel-tab:focus .personnel-iteam {
+  background-color: var(--accent-color);
 }
 
 .personnel-iteam:hover {
@@ -419,6 +430,14 @@ flex-shrink: 0;
   height: 92px;
 }
 
+.costomer-tab:focus .costomers-item {
+  outline: solid 1px var(--accent-color);
+}
+
+.costomer-tab:focus .costomers-icon {
+  fill: var(--accent-color);
+}
+
 .costomers-icon:hover {
   fill: var(--accent-color);
 }
@@ -499,6 +518,10 @@ flex-shrink: 0;
 }
 
 .footer-iteam:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-tab:focus .footer-iteam {
   background-color: var(--accent-color);
 }
 
