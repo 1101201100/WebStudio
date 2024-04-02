@@ -298,12 +298,6 @@ flex-shrink: 0;
   margin-bottom: 10px;
 }
 
-.activity-photoy {
-  width: 370px;
-height: 224px;
-flex-shrink: 0;
-}
-
 .activity-text {
   color: var(--text-color2);
   font-size: 14px;
@@ -345,11 +339,8 @@ text-transform: uppercase;
 }
 
 
-.container-absolutt {
-  width: 370px;
-height: 70px;
-flex-shrink: 0;
-background-color: rgba(47, 48, 58, 0.80);
+.container-absolut:hover {
+background-color: var(--text-color2);
 }
 
 
