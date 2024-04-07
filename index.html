@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" href="./style/reset.css" />
     <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/modal.css">
   </head>
   <body>
     <!--header-->
@@ -458,5 +459,37 @@
         </div>
       </div>
     </footer>
+    <!-- модальне вікно -->
+    <div class="bacdrop">
+      <div class="modal">
+        <form action="">
+          <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+          <ul class="modal-list">
+            <li class="modal-item">
+              <label for="" class="modal-prefix">Ім'я</label>
+              <input type="text" class="modal-field"> 
+            </li>
+            <li class="modal-item">
+              <label for="" class="modal-prefix">Телефон</label>
+              <input type="text" class="modal-field">
+            </li>
+            <li class="modal-item">
+              <label for="" class="modal-prefix">Пошта</label>
+              <input type="text" class="modal-field">
+            </li>
+            <li class="modal-item">
+              <label for="" class="modal-prefix">Коментар</label>
+              <input type="text" class="modal-field-big" placeholder="Введіть текст">
+            </li>
+          </ul>
+          <div class="chekbox">
+          <input type="checkbox" class="modal-chekbox">
+          <p class="modal-text">Погоджуюся з розсилкою та приймаю</p>
+          <a href="#" class="modal-link">Умови договору</a>
+        </div>
+          <button type="submit" class="modal-buton">Відправити</button>
+      </form>
+      </div>
+    </div>
   </body>
 </html>
