@@ -55,7 +55,36 @@
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  background-image: url(../pictures/symbol-defs.svg);
+  padding-left: 42px;
+}
+
+.modal-field:hover {
+  border: 1px solid #2196F3; 
+}
+
+.modal-field-big:hover {
+  border: 1px solid #2196F3; 
+}
+
+.field-1 {
+  background-image: url(../pictures/person.svg);
+  background-repeat: no-repeat;
+  background-position-y: 11px;
+  background-position-x: 12px;
+}
+
+.field-2 {
+  background-image: url(../pictures/phone.svg);
+  background-repeat: no-repeat;
+  background-position-y: 11px;
+  background-position-x: 12px;
+}
+
+.field-3 {
+  background-image: url(../pictures/emai.svg);
+  background-repeat: no-repeat;
+  background-position-y: 11px;
+  background-position-x: 12px;
 }
 
 .modal-field-big {
