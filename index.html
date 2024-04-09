@@ -16,7 +16,7 @@
     />
     <link rel="stylesheet" href="./style/reset.css" />
     <link rel="stylesheet" href="./style/index.css" />
-    <link rel="stylesheet" href="./style/modal.css">
+    <link rel="stylesheet" href="./style/modal.css" />
   </head>
   <body>
     <!--header-->
@@ -65,7 +65,7 @@
               <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
             </li>
             <li class="hero-iteam">
-              <button type="button" class="hero-button">
+              <button type="button" data-modal-open class="hero-button">
                 Замовити послугу
               </button>
             </li>
@@ -131,8 +131,8 @@
                 alt="picture-2"
               />
               <div class="container-absolut">
-              <h2 class="activity-inscription">Мобільні додатки</h2>
-            </div>
+                <h2 class="activity-inscription">Мобільні додатки</h2>
+              </div>
             </li>
             <li class="activity-item">
               <img
@@ -357,48 +357,47 @@
           <h1 class="costomers-title">Постійні клієнти</h1>
           <ul class="costomers-list">
             <a href="#" class="costomer-tab">
-            <li class="costomers-item">
-              
-              <svg class="costomers-icon">
-                <use href="./pictures/symbol-defs.svg#icon-client-1"></use>
-                  </svg>
-            </li>
-          </a>
+              <li class="costomers-item">
+                <svg class="costomers-icon">
+                  <use href="./pictures/symbol-defs.svg#icon-client-1"></use>
+                </svg>
+              </li>
+            </a>
             <a href="#" class="costomer-tab">
-            <li class="costomers-item">
-              <svg class="costomers-icon">
-                <use href="./pictures/symbol-defs.svg#icon-client-2"></use>
-                  </svg>
-            </li>
-          </a>
+              <li class="costomers-item">
+                <svg class="costomers-icon">
+                  <use href="./pictures/symbol-defs.svg#icon-client-2"></use>
+                </svg>
+              </li>
+            </a>
             <a href="#" class="costomer-tab">
-            <li class="costomers-item">
-              <svg class="costomers-icon">
-                <use href="./pictures/symbol-defs.svg#icon-client-3"></use>
-                  </svg>
-            </li>
-          </a>
+              <li class="costomers-item">
+                <svg class="costomers-icon">
+                  <use href="./pictures/symbol-defs.svg#icon-client-3"></use>
+                </svg>
+              </li>
+            </a>
             <a href="#" class="costomer-tab">
-            <li class="costomers-item">
-              <svg class="costomers-icon">
-                <use href="./pictures/symbol-defs.svg#icon-client-4"></use>
-                  </svg>
-            </li>
-          </a>
+              <li class="costomers-item">
+                <svg class="costomers-icon">
+                  <use href="./pictures/symbol-defs.svg#icon-client-4"></use>
+                </svg>
+              </li>
+            </a>
             <a href="#" class="costomer-tab">
-            <li class="costomers-item">
-              <svg class="costomers-icon">
-                <use href="./pictures/symbol-defs.svg#icon-client-5"></use>
-              </svg>
-            </li>
-          </a>
+              <li class="costomers-item">
+                <svg class="costomers-icon">
+                  <use href="./pictures/symbol-defs.svg#icon-client-5"></use>
+                </svg>
+              </li>
+            </a>
             <a href="#" class="costomer-tab">
-            <li class="costomers-item">
-              <svg class="costomers-icon">
-                <use href="./pictures/symbol-defs.svg#icon-client-6"></use>
-              </svg>
-            </li>
-          </a>
+              <li class="costomers-item">
+                <svg class="costomers-icon">
+                  <use href="./pictures/symbol-defs.svg#icon-client-6"></use>
+                </svg>
+              </li>
+            </a>
           </ul>
         </div>
       </section>
@@ -419,77 +418,94 @@
         <div class="footer-subcontainer">
           <h2 class="footer-subtitle">приєднуйтесь</h2>
           <ul class="footer-list">
-           <a href="#" class="footer-tab">
-            <li class="footer-iteam">
-              <svg class="footer-icon">
-                <use
-                  href="./pictures/symbol-defs.svg#icon-footer-instagram"
-                ></use>
-              </svg>
-            </li>
-          </a>
-           <a href="#" class="footer-tab">
-            <li class="footer-iteam">
-              <svg class="footer-icon">
-                <use
-                  href="./pictures/symbol-defs.svg#icon-footer-twitter"
-                ></use>
-              </svg>
-            </li>
-          </a>
-           <a href="#" class="footer-tab">
-            <li class="footer-iteam">
-              <svg class="footer-icon">
-                <use
-                  href="./pictures/symbol-defs.svg#icon-footer-facebook"
-                ></use>
-              </svg>
-            </li>
-          </a>
             <a href="#" class="footer-tab">
-            <li class="footer-iteam">
-              <svg class="footer-icon">
-                <use
-                  href="./pictures/symbol-defs.svg#icon-footer-linkedin"
-                ></use>
-              </svg>
-            </li>
-          </a>
+              <li class="footer-iteam">
+                <svg class="footer-icon">
+                  <use
+                    href="./pictures/symbol-defs.svg#icon-footer-instagram"
+                  ></use>
+                </svg>
+              </li>
+            </a>
+            <a href="#" class="footer-tab">
+              <li class="footer-iteam">
+                <svg class="footer-icon">
+                  <use
+                    href="./pictures/symbol-defs.svg#icon-footer-twitter"
+                  ></use>
+                </svg>
+              </li>
+            </a>
+            <a href="#" class="footer-tab">
+              <li class="footer-iteam">
+                <svg class="footer-icon">
+                  <use
+                    href="./pictures/symbol-defs.svg#icon-footer-facebook"
+                  ></use>
+                </svg>
+              </li>
+            </a>
+            <a href="#" class="footer-tab">
+              <li class="footer-iteam">
+                <svg class="footer-icon">
+                  <use
+                    href="./pictures/symbol-defs.svg#icon-footer-linkedin"
+                  ></use>
+                </svg>
+              </li>
+            </a>
           </ul>
+        </div>
+        <div class="data">
+          <form action="">
+            <h2 class="data-title">Підпишіться на розсилку</h2>
+            <input class="data-input" type="email" placeholder="E-mail" />
+            <button type="submit" class="data-buton">Підписатися</button>
+          </form>
         </div>
       </div>
     </footer>
     <!-- модальне вікно -->
-    <div class="bacdrop">
+    <div data-modal class="bacdrop is-hidden">
       <div class="modal">
         <form action="">
+          <button class="modal-button" data-modal-close type="button">
+            <svg class="modal-close-icon">
+              <use href="./pictures/symbol-defs.svg#icon-closing"></use>
+            </svg>
+          </button>
           <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
           <ul class="modal-list">
             <li class="modal-item">
               <label for="" class="modal-prefix">Ім'я</label>
-              <input type="text" class="modal-field field-1"> 
+              <input type="text" class="modal-field field-1" />
             </li>
             <li class="modal-item">
               <label for="" class="modal-prefix">Телефон</label>
-              <input type="tel" class="modal-field field-2">
+              <input type="tel" class="modal-field field-2" />
             </li>
             <li class="modal-item">
               <label for="" class="modal-prefix">Пошта</label>
-              <input type="email" class="modal-field field-3">
+              <input type="email" class="modal-field field-3" />
             </li>
             <li class="modal-item">
               <label for="" class="modal-prefix">Коментар</label>
-              <input type="text" class="modal-field-big" placeholder="Введіть текст">
+              <input
+                type="text"
+                class="modal-field-big"
+                placeholder="Введіть текст"
+              />
             </li>
           </ul>
           <div class="chekbox">
-          <input type="checkbox" class="modal-chekbox">
-          <p class="modal-text">Погоджуюся з розсилкою та приймаю</p>
-          <a href="#" class="modal-link">Умови договору</a>
-        </div>
+            <input type="checkbox" class="modal-chekbox" />
+            <p class="modal-text">Погоджуюся з розсилкою та приймаю</p>
+            <a href="#" class="modal-link">Умови договору</a>
+          </div>
           <button type="submit" class="modal-buton">Відправити</button>
-      </form>
+        </form>
       </div>
     </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
