@@ -34,6 +34,10 @@
   margin-left: 40px;
 }
 
+.modal-iteam-icon {
+  position: relative;
+}
+
 .modal-title {
   color: var(--text-color1);
   text-align: center;
@@ -75,6 +79,10 @@
   fill: #000;
 }
 
+.modal-button:hover .modal-close-icon {
+  fill: var(--accent-color);
+}
+
 .modal-button {
   background: none;
   display: block;
@@ -91,25 +99,25 @@
   border: 1px solid #2196f3;
 }
 
-.field-1 {
-  background-image: url(../pictures/person.svg);
-  background-repeat: no-repeat;
-  background-position-y: 11px;
-  background-position-x: 12px;
+.modal-icon {
+  width: 18px;
+  height: 18px;
+  fill: #212121;
+  position: absolute;
+  top: 30px;
+  left: 12px;
 }
 
-.field-2 {
-  background-image: url(../pictures/phone.svg);
-  background-repeat: no-repeat;
-  background-position-y: 11px;
-  background-position-x: 12px;
+.modal-link-icon:hover .modal-icon {
+  fill: #2196f3;
 }
 
-.field-3 {
-  background-image: url(../pictures/emai.svg);
-  background-repeat: no-repeat;
-  background-position-y: 11px;
-  background-position-x: 12px;
+.modal-link-icon:focus .modal-field {
+  border: 1px solid #2196f3;
+}
+
+.modal-link-icon:focus .modal-field-big {
+  border: 1px solid #2196f3;
 }
 
 .modal-field-big {
