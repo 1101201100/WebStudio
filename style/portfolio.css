@@ -37,6 +37,11 @@ header {
   border-bottom: 1px solid var(--line-color);
   padding-top: 24px;
   padding-bottom: 25px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  z-index: 3;
 }
 
 .header-container {

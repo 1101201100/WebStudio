@@ -73,11 +73,14 @@ body {
 header {
   padding-top: 24px;
   padding-bottom: 25px;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  background-color: #fff;
+  z-index: 3;
 }
 
-header {
-  background-color: var(--background-color2);
-}
 
 .header-span {
   color: var(--text-color5);
