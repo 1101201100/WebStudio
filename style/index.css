@@ -70,6 +70,10 @@ body {
   fill: var(--accent-color);
 }
 
+.wrapper {
+  padding-top: 70px;
+}
+
 header {
   padding-top: 24px;
   padding-bottom: 25px;

@@ -34,6 +34,11 @@
   margin-left: 40px;
 }
 
+
+.modal-focus:focus .modal-button  {
+  border: 1px solid #2196f3;
+}
+
 .modal-iteam-icon {
   position: relative;
 }
