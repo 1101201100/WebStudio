@@ -44,12 +44,14 @@ body {
   width: 16px;
   height: 12px;
   fill: var(--text-color2);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-icon-tel {
   width: 10px;
   height: 16px;
   fill: var(--text-color2);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list-adres {
@@ -108,6 +110,7 @@ header {
   font-weight: 500;
   letter-spacing: 0.02em;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link::after {
@@ -138,6 +141,7 @@ header {
   margin-left: 10px;
   display: flex;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-email:hover {
@@ -156,6 +160,7 @@ header {
   display: flex;
   align-items: center;
   margin-left: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* hero */
@@ -381,6 +386,7 @@ header {
   width: 20px;
   height: 20px;
   fill: var(--icon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .personnel-iteam:hover .personnel-icon {
@@ -397,7 +403,6 @@ header {
 
 .personnel-iteam:hover {
   background-color: var(--accent-color);
-  fill: var(--background-color2);
 }
 
 .personnel-list-svg {
@@ -420,6 +425,7 @@ header {
   width: 44px;
   height: 44px;
   flex-shrink: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .personnel {
@@ -482,14 +488,13 @@ header {
   fill: var(--icon-color);
   width: 170px;
   height: 92px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.costomer-tab:focus .costomers-item {
-  outline: solid 1px var(--accent-color);
-}
 
 .costomer-tab:focus .costomers-icon {
   fill: var(--accent-color);
+  outline: solid 1px var(--accent-color);
 }
 
 .costomers-icon:hover {
@@ -507,10 +512,11 @@ header {
 .costomers-item {
   outline: solid 1px var(--icon-color);
   border-radius: 5px;
+  transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .costomers-item:hover {
-  outline: solid 1px var(--accent-color);
+  outline: 1px solid var(--accent-color);
 }
 
 .costomers-title {
@@ -590,6 +596,7 @@ footer {
   width: 44px;
   height: 44px;
   flex-shrink: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-iteam:hover {
