@@ -199,6 +199,11 @@ header {
   width: 696px;
 }
 
+.hero-button:hover {
+  transform: scale(1.5, 1.5);
+  transform: translate(30px, 15px);
+}
+
 .hero-button {
   text-align: center;
   font-size: 16px;
@@ -214,6 +219,9 @@ header {
   border: none;
   background-color: var(--accent-color);
   color: var(--text-color3);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* activity */
