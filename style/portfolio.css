@@ -100,11 +100,13 @@ header {
 }
 
 .header-span {
-  color: var(--text-color5);
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
+  color: var(--title-color);
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
 }
 
 .header-title {

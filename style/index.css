@@ -573,7 +573,7 @@ footer {
 .footer-container {
   display: flex;
   animation-name: foter-open;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-timing-function: cubic-bezier(.61,.6,.65,.64);
 }
 
